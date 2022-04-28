@@ -1,0 +1,66 @@
+{
+  "id" : "https://seloy83.github.io/Sarah-test-IIIFtraining/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in seloy83/Sarah-test-IIIFtraining project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 3301,
+    "id" : "https://seloy83.github.io/Sarah-test-IIIFtraining/images/liber-floridus-test/canvas/",
+    "label" : {
+      "none" : [ "liber-floridus-test" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://seloy83.github.io/Sarah-test-IIIFtraining/images/liber-floridus-test/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://seloy83.github.io/Sarah-test-IIIFtraining/images/liber-floridus-test/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 104,
+              "height" : 70
+            }, {
+              "width" : 207,
+              "height" : 139
+            }, {
+              "width" : 413,
+              "height" : 278
+            }, {
+              "width" : 826,
+              "height" : 555
+            }, {
+              "width" : 1651,
+              "height" : 1109
+            }, {
+              "width" : 3301,
+              "height" : 2217
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 3301,
+            "@id" : "https://seloy83.github.io/Sarah-test-IIIFtraining/images/liber-floridus-test",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2217
+          } ],
+          "format" : "image/jpeg",
+          "width" : 3301,
+          "id" : "https://seloy83.github.io/Sarah-test-IIIFtraining/images/liber-floridus-test/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2217
+        },
+        "target" : "https://seloy83.github.io/Sarah-test-IIIFtraining/images/liber-floridus-test/canvas/"
+      } ]
+    } ],
+    "height" : 2217
+  } ]
+}
