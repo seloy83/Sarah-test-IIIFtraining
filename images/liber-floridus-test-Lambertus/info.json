@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 125,
+    "height" : 75
+  }, {
+    "width" : 250,
+    "height" : 149
+  }, {
+    "width" : 500,
+    "height" : 297
+  }, {
+    "width" : 1000,
+    "height" : 594
+  }, {
+    "width" : 2000,
+    "height" : 1187
+  }, {
+    "width" : 4000,
+    "height" : 2374
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 4000,
+  "@id" : "https://seloy83.github.io/Sarah-test-IIIFtraining/images/liber-floridus-test-Lambertus",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 2374
+}
