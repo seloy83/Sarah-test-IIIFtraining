@@ -1,0 +1,13 @@
+{
+  "id" : "https://seloy83.github.io/Sarah-test-IIIFtraining/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in seloy83/Sarah-test-IIIFtraining project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://seloy83.github.io/Sarah-test-IIIFtraining/manifests/manifest.json",
+    "label" : "Liber Floridus-test"
+  } ]
+}
