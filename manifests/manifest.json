@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://seloy83.github.io/Sarah-test-IIIFtraining/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Liber Floridus-test",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/publicdomain/mark/1.0/",
+  "attribution" : "Ghent University Library",
+  "sequences" : [ {
+    "@id" : "http://cabd95c7-4666-438d-bf24-fe65bf007482",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://380241c9-0fe1-4781-965f-8bdadc80397d",
+      "@type" : "sc:Canvas",
+      "label" : "Lambertus of Saint-Omer",
+      "height" : 2374,
+      "width" : 4000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://71eb347d-5972-47f4-b671-732ea7134aa7",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://seloy83.github.io/Sarah-test-IIIFtraining/images/liber-floridus-test-Lambertus/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://seloy83.github.io/Sarah-test-IIIFtraining/images/liber-floridus-test-Lambertus",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2374,
+          "width" : 4000
+        },
+        "on" : "http://380241c9-0fe1-4781-965f-8bdadc80397d"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://3eb3c291-b051-4c5f-a3ec-0dfae674da96",
+      "@type" : "sc:Canvas",
+      "label" : "star signes",
+      "height" : 2217,
+      "width" : 3301,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d7dddd0e-b505-41e0-847c-845b436d1052",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://seloy83.github.io/Sarah-test-IIIFtraining/images/liber-floridus-test/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://seloy83.github.io/Sarah-test-IIIFtraining/images/liber-floridus-test",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2217,
+          "width" : 3301
+        },
+        "on" : "http://3eb3c291-b051-4c5f-a3ec-0dfae674da96"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
